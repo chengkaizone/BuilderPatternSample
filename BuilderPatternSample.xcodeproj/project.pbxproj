@@ -13,6 +13,11 @@
 		12B5124C1BC9EAEA0031FF1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12B5124A1BC9EAEA0031FF1E /* Main.storyboard */; };
 		12B5124E1BC9EAEA0031FF1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12B5124D1BC9EAEA0031FF1E /* Assets.xcassets */; };
 		12B512511BC9EAEA0031FF1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12B5124F1BC9EAEA0031FF1E /* LaunchScreen.storyboard */; };
+		12B5125A1BC9EBC30031FF1E /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B512591BC9EBC30031FF1E /* Car.m */; settings = {ASSET_TAGS = (); }; };
+		12B5125D1BC9EC470031FF1E /* CarBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B5125C1BC9EC470031FF1E /* CarBuilder.m */; settings = {ASSET_TAGS = (); }; };
+		12B512661BC9EE460031FF1E /* BenZCarBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B512651BC9EE460031FF1E /* BenZCarBuilder.m */; settings = {ASSET_TAGS = (); }; };
+		12B512691BC9EF420031FF1E /* BMWCarBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B512681BC9EF420031FF1E /* BMWCarBuilder.m */; settings = {ASSET_TAGS = (); }; };
+		12B5126C1BC9EFD50031FF1E /* CarFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B5126B1BC9EFD50031FF1E /* CarFactory.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		12B5124D1BC9EAEA0031FF1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12B512501BC9EAEA0031FF1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12B512521BC9EAEA0031FF1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12B512581BC9EBC30031FF1E /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		12B512591BC9EBC30031FF1E /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		12B5125B1BC9EC470031FF1E /* CarBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarBuilder.h; sourceTree = "<group>"; };
+		12B5125C1BC9EC470031FF1E /* CarBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarBuilder.m; sourceTree = "<group>"; };
+		12B512641BC9EE460031FF1E /* BenZCarBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BenZCarBuilder.h; sourceTree = "<group>"; };
+		12B512651BC9EE460031FF1E /* BenZCarBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BenZCarBuilder.m; sourceTree = "<group>"; };
+		12B512671BC9EF420031FF1E /* BMWCarBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMWCarBuilder.h; sourceTree = "<group>"; };
+		12B512681BC9EF420031FF1E /* BMWCarBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMWCarBuilder.m; sourceTree = "<group>"; };
+		12B5126A1BC9EFD50031FF1E /* CarFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarFactory.h; sourceTree = "<group>"; };
+		12B5126B1BC9EFD50031FF1E /* CarFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +77,16 @@
 				12B512451BC9EAEA0031FF1E /* AppDelegate.m */,
 				12B512471BC9EAEA0031FF1E /* ViewController.h */,
 				12B512481BC9EAEA0031FF1E /* ViewController.m */,
+				12B512581BC9EBC30031FF1E /* Car.h */,
+				12B512591BC9EBC30031FF1E /* Car.m */,
+				12B5125B1BC9EC470031FF1E /* CarBuilder.h */,
+				12B5125C1BC9EC470031FF1E /* CarBuilder.m */,
+				12B512641BC9EE460031FF1E /* BenZCarBuilder.h */,
+				12B512651BC9EE460031FF1E /* BenZCarBuilder.m */,
+				12B512671BC9EF420031FF1E /* BMWCarBuilder.h */,
+				12B512681BC9EF420031FF1E /* BMWCarBuilder.m */,
+				12B5126A1BC9EFD50031FF1E /* CarFactory.h */,
+				12B5126B1BC9EFD50031FF1E /* CarFactory.m */,
 				12B5124A1BC9EAEA0031FF1E /* Main.storyboard */,
 				12B5124D1BC9EAEA0031FF1E /* Assets.xcassets */,
 				12B5124F1BC9EAEA0031FF1E /* LaunchScreen.storyboard */,
@@ -151,6 +176,11 @@
 			files = (
 				12B512491BC9EAEA0031FF1E /* ViewController.m in Sources */,
 				12B512461BC9EAEA0031FF1E /* AppDelegate.m in Sources */,
+				12B512691BC9EF420031FF1E /* BMWCarBuilder.m in Sources */,
+				12B5125D1BC9EC470031FF1E /* CarBuilder.m in Sources */,
+				12B512661BC9EE460031FF1E /* BenZCarBuilder.m in Sources */,
+				12B5126C1BC9EFD50031FF1E /* CarFactory.m in Sources */,
+				12B5125A1BC9EBC30031FF1E /* Car.m in Sources */,
 				12B512431BC9EAEA0031FF1E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
